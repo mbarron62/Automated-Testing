@@ -3,7 +3,7 @@
 var webdriver = require('selenium-webdriver'),
     By = webdriver.By,
     until = webdriver.until,
-    username = "YOUR-USER-NAME",
+    username = "mbarron62",
     accessKey = "YOUR-ACCESS-KEY";
 
 var driver = new webdriver.Builder()
@@ -11,7 +11,7 @@ var driver = new webdriver.Builder()
       'browserName': 'chrome',
       'platform': 'Windows XP',
       'version': '43.0',
-      'username': username,
+      'username': mbarron62,
       'accessKey': accessKey
     })
     .usingServer("https://" + username + ":" + accessKey +
