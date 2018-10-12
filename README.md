@@ -4,7 +4,7 @@ var webdriver = require('selenium-webdriver'),
     By = webdriver.By,
     until = webdriver.until,
     username = "mbarron62",
-    accessKey = "********";
+    accessKey = "5ab48f59-6e64-4c85-ad27-2417db38a4a0";
 
 var driver = new webdriver.Builder()
     .withCapabilities({
@@ -12,7 +12,7 @@ var driver = new webdriver.Builder()
       'platform': 'Windows XP',
       'version': '43.0',
       'username': mbarron62,
-      'accessKey': accessKey
+      'accessKey': 5ab48f59-6e64-4c85-ad27-2417db38a4a0
     })
     .usingServer("https://" + username + ":" + accessKey +
           "@ondemand.saucelabs.com:443/wd/hub")
