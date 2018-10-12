@@ -4,7 +4,7 @@ var webdriver = require('selenium-webdriver'),
     By = webdriver.By,
     until = webdriver.until,
     username = "mbarron62",
-    accessKey = "YOUR-ACCESS-KEY";
+    accessKey = "********";
 
 var driver = new webdriver.Builder()
     .withCapabilities({
