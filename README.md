@@ -6,7 +6,7 @@ var webdriver = require('selenium-webdriver'),
     username = "mbarron62",
     accessKey = "5ab48f59-6e64-4c85-ad27-2417db38a4a0";
 
-var driver = new webdriver.Builder()
+var driver = new webdriver.Builder()-
     .withCapabilities({
       'browserName': 'chrome',
       'platform': 'Windows XP',
