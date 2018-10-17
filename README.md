@@ -14,7 +14,7 @@ var driver = new webdriver.Builder()
       'username': mbarron62,
       'accessKey': 5ab48f59-6e64-4c85-ad27-2417db38a4a0
     })
-    .usingServer("https://" + username + ":" + accessKey +
+    .usingServer("https://" + mbarron62 + ":" + 5ab48f59-6e64-4c85-ad27-2417db38a4a0 +
           "@ondemand.saucelabs.com:443/wd/hub")
     .build();
 
