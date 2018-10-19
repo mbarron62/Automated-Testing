@@ -35,7 +35,10 @@ driver.sleep(2000).then(function() {
     } else {
       console.log('Test failed');
     }
-  });
-});
+    driver.quit();
+   });
+ });
 
-driver.quit();
+
+}
+
