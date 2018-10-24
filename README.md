@@ -1,5 +1,11 @@
 # Automated-Testing
 
+npm install selenium-webdriver
+
+npm install npm@latest -g
+
+npm install --global gulp-cli
+
 var webdriver = require('selenium-webdriver'),
     By = webdriver.By,
     until = webdriver.until,
